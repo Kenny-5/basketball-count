@@ -1,0 +1,76 @@
+ body{
+   min-height:100vh  ;
+   background:#1B244A ;
+   font-family: 'Cursed Timer ULiL','serif', sans-serif;
+   margin: 0;
+ }
+
+ .scoreboard{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   padding: 30px;
+   color: #ffffff;
+ }
+
+ h2{
+   font-family: "Bubblegum Sans";
+   font-weight: bolder;
+   margin-bottom: 8px;
+ }
+
+ .score{
+   font-size:3em;
+   font-weight: bold;
+   margin-bottom: 20px;
+   background-color: #000000;
+   color:#F94F6D;
+   padding: 15px 30px;
+   margin-bottom:20px ;
+   align-items: center;
+   border-radius: 8px;
+   
+ }
+
+ .btn{
+   gap: 10px;
+ }
+
+
+
+ #reset-el{border: none;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color:#F94F6D ;
+ font-weight: bolder;
+ width: 100px;
+ margin-bottom: 5px;
+ border-radius: 5px;
+ background-color: #000000;
+ font-family: 'Cursed Timer ULiL','serif', sans-serif;
+ }
+ /*.home-page{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+ }
+
+ .counts{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 8px;
+
+ }
+
+ .home-count{
+   background-color: #000000;
+   padding: 25px 60px;
+   font-size: 24px;
+ }
+ .guest-count{
+   font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
+   background-color: #000000;
+ }
